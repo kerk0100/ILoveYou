@@ -337,7 +337,7 @@
 		button.active,
 		.button.active {
 			color: #FFF;
-			background: #22313F;
+			background: #E24767;
 		}
 
 			input[type="submit"].active:hover,
@@ -346,7 +346,7 @@
 			button.active:hover,
 			.button.active:hover {
 				color: #FFF;
-				background: #22313F;
+				background: #E24767;
 			}
 
 		input[type="submit"]:hover,
@@ -355,7 +355,7 @@
 		button:hover,
 		.button:hover {
 			color: #FFF;
-			background: #019be3;
+			background: #B51A3A;
 		}
 
 		input[type="submit"].alt,
@@ -464,7 +464,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #ececec;
+		background: #E4CDD3;
 	}
 
 		#contact form {
@@ -483,7 +483,7 @@
 		}
 
 			#contact .column.social {
-				background: #e6e6e6;
+				background: #E4CDD3;
 			}
 
 			@media screen and (max-width: 980px) {
@@ -1468,8 +1468,8 @@
 		min-height: 75vh;
 		height: 75vh;
 		position: relative;
-		background: #000;
-		background-image: url(../../images/banner.jpg);
+		background: #5E081E;
+		/* background-image: url(../../images/banner.jpg); */
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -1489,7 +1489,7 @@
 			transition-delay: 0.25s;
 			content: '';
 			display: block;
-			background-color: #000;
+			background-color: #5E081E;
 			height: 100%;
 			left: 0;
 			opacity: 0.65;
