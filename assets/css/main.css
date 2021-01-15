@@ -75,7 +75,7 @@
 	}
 
 	body {
-		background: #fff;
+		background: #B51A3A;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -92,8 +92,8 @@
 /* Type */
 
 	body {
-		background-color: #fff;
-		color: #22313F;
+		background-color: #B51A3A;
+		color: #E48397;
 	}
 
 	body, input, select, textarea {
@@ -145,12 +145,12 @@
 
 	a {
 		text-decoration: underline;
-		color: #19B5FE;
+		color: #5E081E;
 	}
 
 		a:hover {
 			text-decoration: none;
-			color: #019be3;
+			color: #5E081E;
 		}
 
 	strong, b {
@@ -177,7 +177,7 @@
 		}
 
 	h1 {
-		font-size: 2em;
+		font-size: 5em;
 	}
 
 		@media screen and (max-width: 480px) {
@@ -316,8 +316,8 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background: #19B5FE;
-		color: #FFF;
+		background: #E24767;
+		color: #E4CDD3;
 		border-radius: 4px;
 		border: 0;
 		cursor: pointer;
