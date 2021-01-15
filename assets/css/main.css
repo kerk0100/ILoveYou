@@ -167,7 +167,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
-		line-height: 1.5;
+		line-height: 4;
 		margin: 0 0 1em 0;
 	}
 
@@ -177,13 +177,13 @@
 		}
 
 	h1 {
-		font-size: 5em;
+		font-size: 7em;
 	}
 
 		@media screen and (max-width: 480px) {
 
 			h1 {
-				font-size: 1.5em;
+				font-size: 7em;
 			}
 
 		}
@@ -1515,8 +1515,8 @@
 		}
 
 		#banner h1 {
-			font-size: 4em;
-			line-height: 1em;
+			font-size: 7em;
+			line-height: 3em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
 			color: #FFF;
@@ -1535,7 +1535,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner h1 {
-				font-size: 3.5em;
+				font-size: 7em;
 			}
 
 		}
@@ -1547,7 +1547,7 @@
 			}
 
 				#banner h1 {
-					font-size: 2.25em;
+					font-size: 7em;
 				}
 
 				#banner p {
@@ -1571,7 +1571,7 @@
 
 			#main #header h1 {
 				margin: 0;
-				font-size: 1em;
+				font-size: 7em;
 			}
 
 			@media screen and (max-width: 980px) {
