@@ -15,18 +15,20 @@ function stopAll() {
 }
 
 function playAudio(url) {
-    var media = document.getElementsByClassName('content'),
-        i = media.length;
+    // var media = document.getElementsByClassName('content'),
+    //     i = media.length;
 
-    while (i--) {
-        media[i].volume = 0;
-    }
-    var audio = new Audio(url);
+    // while (i--) {
+    //     media[i].volume = 0;
+    // }
+    //var audio = new Audio(url);
+    var audio = document.getElementsByClassName('media');
+    audio.pause();
     if (audio.paused) {
         audio.loop = false;
         audio.play();
     }else{
         audio.pause();
-        audio.currentTime = 0
+        //audio.currentTime = 0
     }
 }
