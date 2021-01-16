@@ -52,9 +52,6 @@
 					$content.poptrox({
 						usePopupCaption: true
 					});
-					$content.poptrox_close({
-
-					});
 
 				// Tabs.
 					$gallery.each( function() {
