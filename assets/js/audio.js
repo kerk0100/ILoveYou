@@ -15,7 +15,7 @@ function stopAll() {
 }
 
 function playAudio(url) {
-    var media = document.getElementsByClassName('media'),
+    var media = document.getElementsByClassName('content'),
         i = media.length;
 
     while (i--) {
