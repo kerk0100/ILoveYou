@@ -67,7 +67,7 @@
 
 							// Prevent default.
 								 e.preventDefault();
-								 f.pause()
+								//  e.poptrox_close();
 
 							// Remove active class from all tabs.
 								$tabs.removeClass('active');
