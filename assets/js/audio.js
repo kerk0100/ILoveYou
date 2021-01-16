@@ -7,10 +7,11 @@
 //   }
 
 function playAudio(url) {
-    if (Audio(url).paused) {
-        Audio(url).play();
+    var audio = new Audio(url);
+    if (audio.paused) {
+        audio.play();
     }else{
-        Audio(url).pause();
-        Audio(url).currentTime = 0
+        audio.pause();
+        audio.currentTime = 0
     }
 }
