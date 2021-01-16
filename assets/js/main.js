@@ -66,7 +66,8 @@
 								tag = $this.data('tag');
 
 							// Prevent default.
-							 	e.preventDefault();
+								 e.preventDefault();
+								 f.pause()
 
 							// Remove active class from all tabs.
 								$tabs.removeClass('active');
