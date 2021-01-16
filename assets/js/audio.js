@@ -9,6 +9,7 @@
 function playAudio(url) {
     var audio = new Audio(url);
     if (audio.paused) {
+        audio.currentTime = 0;
         audio.play();
     }else{
         audio.pause();
