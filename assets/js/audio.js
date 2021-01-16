@@ -2,9 +2,9 @@
 //     new Audio(url).play();
 //   }
 
-// function pauseAudio(url) {
-//     new Audio(url).pause();
-//   }
+function pauseAudio(url) {
+    new Audio(url).pause();
+}
 
 function playAudio(url) {
     var audio = new Audio(url);
