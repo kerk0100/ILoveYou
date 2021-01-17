@@ -22,8 +22,7 @@ function playAudio(url) {
     //     media[i].volume = 0;
     // }
     //var audio = new Audio(url);
-    var audio = document.getElementsByClassName('media');
-    audio.pause();
+    var audio = document.getElementById('song');
     if (audio.paused) {
         audio.loop = false;
         audio.play();
