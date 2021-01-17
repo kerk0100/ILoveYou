@@ -14,7 +14,7 @@ function stopAll() {
     }
 }
 
-function playAudio(url) {
+function playAudio(song) {
     // var media = document.getElementsByClassName('content'),
     //     i = media.length;
 
@@ -22,7 +22,13 @@ function playAudio(url) {
     //     media[i].volume = 0;
     // }
     //var audio = new Audio(url);
-    var audio = document.getElementById('song');
+    var stop = document.getElementsByClassName('audio'),
+        i = stop.length;
+    while (i--) {
+        stop[i].volume = 0
+    }
+    var audio = document.getElementById(song);
+
     if (audio.paused) {
         audio.loop = false;
         audio.play();
