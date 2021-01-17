@@ -14,7 +14,7 @@ function stopAll() {
     }
 }
 
-function playAudio(song) {
+function playAudio(song, pause1) {
     // var media = document.getElementsByClassName('content'),
     //     i = media.length;
 
@@ -28,6 +28,8 @@ function playAudio(song) {
     //     stop[i].pause();
     // }
     var audio = document.getElementById(song);
+    var pause = document.getElementById(pause1);
+    pause.pause();
 
     if (audio.paused) {
         audio.loop = false;
