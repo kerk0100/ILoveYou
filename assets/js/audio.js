@@ -32,6 +32,7 @@ function playAudio(song, pause1) {
     pause.pause();
 
     if (audio.paused) {
+        audio.currentTime = 0
         audio.loop = false;
         audio.play();
     }else{
