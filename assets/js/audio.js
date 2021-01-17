@@ -25,7 +25,7 @@ function playAudio(song) {
     var stop = document.getElementsByClassName('audio'),
         i = stop.length;
     while (i--) {
-        stop[i].volume = 0
+        stop[i].pause();
     }
     var audio = document.getElementById(song);
 
