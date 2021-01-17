@@ -22,11 +22,11 @@ function playAudio(song) {
     //     media[i].volume = 0;
     // }
     //var audio = new Audio(url);
-    var stop = document.getElementsByClassName('audio'),
-        i = stop.length;
-    while (i--) {
-        stop[i].pause();
-    }
+    // var stop = document.getElementsByClassName('audio'),
+    //     i = stop.length;
+    // while (i--) {
+    //     stop[i].pause();
+    // }
     var audio = document.getElementById(song);
 
     if (audio.paused) {
