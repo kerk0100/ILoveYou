@@ -14,22 +14,9 @@ function stopAll() {
     }
 }
 
-function playAudio(song, pause1) {
-    // var media = document.getElementsByClassName('content'),
-    //     i = media.length;
+function playAudio(song) {
 
-    // while (i--) {
-    //     media[i].volume = 0;
-    // }
-    //var audio = new Audio(url);
-    // var stop = document.getElementsByClassName('audio'),
-    //     i = stop.length;
-    // while (i--) {
-    //     stop[i].pause();
-    // }
     var audio = document.getElementById(song);
-    var pause = document.getElementById(pause1);
-    pause.pause();
 
     audio.currentTime = 0
     audio.loop = false;
