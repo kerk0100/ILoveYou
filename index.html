@@ -2,18 +2,20 @@
 <html>
 	<body>
 		<div class="page-wrap">
-			What's my nickname?: <input id='password' type='text'  />
-			<a href="main.html" onclick="javascript:return validatePass()">enter</a>
-			<script>
-			function validatePass(){
-				if(document.getElementById('password').value == 'kooks'){
-					return true;
-				}else{
-					alert('Ooops.. Try again Max');
-					return false;
+			<section id="main">
+				What's my nickname? <input id='password' type='text'  />
+				<a href="main.html" onclick="javascript:return validatePass()">enter</a>
+				<script>
+				function validatePass(){
+					if(document.getElementById('password').value == 'kooks'){
+						return true;
+					}else{
+						alert('Ooops.. Try again Max');
+						return false;
+					}
 				}
-			}
-			</script>
+				</script>
+			</section>
 		</div>
 	</body>
 </html>
