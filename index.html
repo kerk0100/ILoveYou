@@ -10,6 +10,7 @@
 			.password {
 			  background-color: #E4CDD3;
 			  text-align: center;
+			  font-weight: bold;
 			}
 		</style>
 	</head>
@@ -26,8 +27,8 @@
 					</div>
 				</section>
 				<div class = "password">
-					WHAT'S MY NICKNAME? <input id='password' type='text' minlength="8" required/>
-					<a href="main.html" onclick="javascript:return validatePass()">enter</a>
+					WHAT'S MY NICKNAME? <input id='password' type='text' size="25"/>
+					<a href="main.html" onclick="javascript:return validatePass()">ENTER</a>
 					<script>
 					function validatePass(){
 						if(document.getElementById('password').value == 'kooks'){
