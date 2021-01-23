@@ -5,7 +5,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="assets/css/main.css" />
-        <link rel="shortcut icon" type="images/heart.ico" href="favicon.ico" />
+		<link rel="shortcut icon" type="images/heart.ico" href="favicon.ico" />
+		<style>
+			.password {
+			  border: 5px outset red;
+			  background-color: lightblue;
+			  text-align: center;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="page-wrap">
@@ -19,18 +26,20 @@
 						</ul> -->
 					</div>
 				</section>
-				What's my nickname? <input id='password' type='text'  />
-				<a href="main.html" onclick="javascript:return validatePass()">enter</a>
-				<script>
-				function validatePass(){
-					if(document.getElementById('password').value == 'kooks'){
-						return true;
-					}else{
-						alert('Ooops.. Try again Max');
-						return false;
+				<div class = "password">
+					What's my nickname? <input id='password' type='text'  />
+					<a href="main.html" onclick="javascript:return validatePass()">enter</a>
+					<script>
+					function validatePass(){
+						if(document.getElementById('password').value == 'kooks'){
+							return true;
+						}else{
+							alert('Ooops.. Try again Max');
+							return false;
+						}
 					}
-				}
-				</script>
+					</script>
+				</div>
 				<!-- Footer -->
 				<footer id="footer">
 					<div class="copyright">
