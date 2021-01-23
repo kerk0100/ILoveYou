@@ -31,12 +31,7 @@ function playAudio(song, pause1) {
     var pause = document.getElementById(pause1);
     pause.pause();
 
-    if (audio.paused) {
-        audio.currentTime = 0
-        audio.loop = false;
-        audio.play();
-    }else{
-        audio.pause();
-        //audio.currentTime = 0
-    }
+    audio.currentTime = 0
+    audio.loop = false;
+    audio.play();
 }
