@@ -1,14 +1,19 @@
-<body>
-Enter password: <input id='password' type='text'  />
-<a href="main.html" onclick="javascript:return validatePass()">What's my nickname?</a>
-<script>
-function validatePass(){
-	if(document.getElementById('password').value == 'kooks'){
-		return true;
-	}else{
-		alert('Ooops.. Try again Max');
-		return false;
-	}
-}
-</script>
-</body>
+<!DOCTYPE HTML>
+<html>
+	<body>
+		<div class="page-wrap">
+			Enter password: <input id='password' type='text'  />
+			<a href="main.html" onclick="javascript:return validatePass()">What's my nickname?</a>
+			<script>
+			function validatePass(){
+				if(document.getElementById('password').value == 'kooks'){
+					return true;
+				}else{
+					alert('Ooops.. Try again Max');
+					return false;
+				}
+			}
+			</script>
+		</div>
+	</body>
+</html>
