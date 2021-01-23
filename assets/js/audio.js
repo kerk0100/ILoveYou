@@ -22,3 +22,12 @@ function playAudio(song) {
     audio.loop = false;
     audio.play();
 }
+
+function validatePass(){
+    if(document.getElementById('password').value == 'kooks'){
+        return true;
+    }else{
+        alert('Oops.. try again Max');
+        return false;
+    }
+}
