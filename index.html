@@ -30,7 +30,7 @@
 					</div>
 				</section>
 				<div class = "password">
-					WHAT'S MY NICKNAME? <input id='password' type='text' size="25"/>
+					<!-- WHAT'S MY NICKNAME? <input id='password' type='text' size="25"/>
 					<a href="main.html" onclick="javascript:return validatePass()">ENTER</a>
 					<script>
 					function validatePass(){
@@ -39,6 +39,26 @@
 						}else{
 							alert('Ooops.. Try again Max');
 							return false;
+						}
+					}
+					</script> -->
+					<form onSubmit = "showPass(this , event)">
+						<label for="pin">WHAT'S MY NICKNAME?</label>
+						<input type="text" id="pin" name="pin" maxlength="5" size="25"><br><br>
+						<input type="submit" value="Submit">
+					</form>
+					<script>
+					function showPass(form , e){
+						e.preventDefault();
+						var pass = form.pwd.value;
+						var pass1 = "tanwebdesign";
+						alert(pass);
+						if(pass == pass1 || pass == pass1)
+						{
+							//window.location.replace("intro.html");
+						}
+						else{
+							//window.open = "LogIn.html"
 						}
 					}
 					</script>
