@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>I LOVE YOU</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/heart.ico">
+		<style>
+			.password {
+			  background-color: #E4CDD3;
+			  text-align: center;
+			  font-weight: bold;
+			}
+			.banner {
+				background-image: none !important;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="page-wrap">
+			<section id="main">
+				<section id="banner">
+					<div class="inner">
+						<!-- <h1 style="font-size:100px;font-family: Snell Roundhand, cursive">I Love You</h1> -->
+						<!-- <p>A fully responsive gallery template by <a href="https://templated.co">TEMPLATED</a></p> -->
+						<!-- <ul class="actions">
+							<li><a href="#galleries" class="button alt scrolly big">Continue</a></li>
+						</ul> -->
+					</div>
+				</section>
+				<div class = "password">
+					WHAT'S MY NICKNAME? <input id='password' type='text' size="25"/>
+					<a href="main.html" onclick="javascript:return validatePass()">ENTER</a>
+					<script>
+					function validatePass(){
+						if(document.getElementById('password').value == 'kooks'){
+							return true;
+						}else{
+							alert('Ooops.. Try again Max');
+							return false;
+						}
+					}
+					</script>
+					<!-- <form onSubmit = "showPass(this , event)">
+						<label for="pin">WHAT'S MY NICKNAME?</label>
+						<input type="text" id="pin" name="pin" maxlength="5" size="7"><br>
+						<input type="submit" value="Submit">
+					</form>
+					<script>
+					function showPass(form , e){
+						e.preventDefault();
+						var pass = form.pwd.value;
+						var pass1 = "kooks";
+						alert(pass);
+						if(pass == pass1 || pass == pass1)
+						{
+							window.location.replace("main.html");
+						}
+						else{
+							window.open = "index.html"
+						}
+					}
+					</script> -->
+				</div>
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="copyright">
+					</div>
+				</footer>
+			</section>
+		</div>
+	</body>
+</html>
