@@ -30,39 +30,42 @@
 					<img src="images/login.png" alt="IMG">
 				</div>
 
-				<form method='post' class="login100-form validate-form" onsubmit="check()">
+				<form method='post' class="login100-form validate-form" name = "login" onsubmit="check()">
 					<span class="login100-form-title">
 						What's my nickname?
 					</span>
 
-					<!-- <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="email" placeholder="Email">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</span>
-					</div> -->
-
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<!-- <input class="input100" id = 'password' type="password" name="pass" placeholder="Password"> -->
-						<input class="input100" id = 'password' type="password" placeholder="Password">
+						<!-- <input class="input100" id = 'password' type="password" placeholder="Password">
+						<input class="input100" type="submit" value="Login"/>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
-						</span>
+						</span> -->
+						<p class="input100">Password <input class="login" type="password" placeholder="Enter Password" name="pswrd" /></p>
+						<p class="input100"><input type="submit" value="Login" /></p>
 					</div>
 					
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn" type = 'reset' onclick="validatePass()">
+						<!-- <button class="login100-form-btn" type = 'reset' onclick="validatePass()">
 							Submit
-						</button>
+						</button> -->
 						<script>
-							function validatePass(){
-								if(document.getElementById('password').value == 'kooks'){
-									location.href = "https://kerk0100.github.io/ILoveYou/main.html";
-								}else{
-									alert('Ooops.. Try again Max');
-									return false;
+							// function validatePass(){
+							// 	if(document.getElementById('password').value == 'kooks'){
+							// 		location.href = "https://kerk0100.github.io/ILoveYou/main.html";
+							// 	}else{
+							// 		alert('Ooops.. Try again Max');
+							// 		return false;
+							// 	}
+							// }
+							function check() {
+								event.preventDefault();
+								var form = document.forms["login"];
+								if (form.pswrd.value == "kooks") {
+									window.open('/https://kerk0100.github.io/ILoveYou/main.html', '_self')
+								} else {
+									alert("Error: Wrong username or password")
 								}
 							}
 						</script>
