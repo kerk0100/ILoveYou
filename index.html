@@ -53,28 +53,16 @@
 					</div>
 					
 					<div class="container-login100-form-btn">
-						<!-- <button class="login100-form-btn" type = 'reset' onclick="validatePass()"> -->
-						<button class="login100-form-btn" type = 'submit' value = 'login'>
+						<button class="login100-form-btn" type = 'reset' onclick="validatePass()">
 							Submit
 						</button>
 						<script>
-							// function validatePass(){
-							// 	if(document.getElementById('password').value == 'kooks'){
-							// 		location.href = "https://kerk0100.github.io/ILoveYou/main.html";
-							// 	}else{
-							// 		alert('Ooops.. Try again Max');
-							// 		return false;
-							// 	}
-							// }
-							function check() {
-								event.preventDefault();
-								var form = document.forms["login"];
-								if (form.pswrd.value == "kooks") {
+							function validatePass(){
+								if(document.getElementById('password').value == 'kooks'){
 									location.href = "https://kerk0100.github.io/ILoveYou/main.html";
-								// } else if (form.userid.value == "pf350a" && form.pswrd.value == "password") {
-								// 	window.open('/pf350a_pid/index.htm', '_self')
-								} else {
-									alert("Error: Wrong username or password")
+								}else{
+									alert('Ooops.. Try again Max');
+									return false;
 								}
 							}
 						</script>
