@@ -229,7 +229,8 @@ iframe {
   z-index: 1;
   margin-bottom: 10px;
 }
-
+/* 
+font */
 .input100 {
   font-family: Poppins-Medium;
   font-size: 15px;
@@ -241,7 +242,7 @@ iframe {
   background: #e6e6e6;
   height: 50px;
   border-radius: 25px;
-  padding: 30px 30px 0 68px;
+  padding: 0px 30px 0 68px;
 }
 
 
@@ -256,7 +257,7 @@ iframe {
   z-index: -1;
   width: 100%;
   height: 100%;
-  box-shadow: 0px 0px 0px 0px;
+  box-shadow: 30px 0px 0px 0px;
   color: #E48397;
 }
 
