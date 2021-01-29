@@ -752,6 +752,25 @@
 		overflow: hidden;
 		min-height: 37em;
 	}
+	
+	.container-login100 {
+		width: 100%;  
+		min-height: 100vh;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 15px;
+		background: #B51A3A;
+		background: -webkit-linear-gradient(-135deg, #E48397, #5E081E);
+		background: -o-linear-gradient(-135deg, #E48397, #5E081E);
+		background: -moz-linear-gradient(-135deg, #E48397, #5E081E);
+		background: linear-gradient(-135deg, #E48397, #5E081E);
+	  }
 
 		@media screen and (max-width: 980px) {
 
