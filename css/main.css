@@ -257,7 +257,7 @@ font */
   z-index: -1;
   width: 100%;
   height: 100%;
-  box-shadow: 30px 0px 0px 0px;
+  box-shadow: 0px 0px 0px 0px;
   color: #E48397;
 }
 
@@ -296,6 +296,7 @@ font */
   width: 100%;
   height: 100%;
   padding-left: 35px;
+  padding-bottom: 30px;
   pointer-events: none;
   color: #666666;
 
