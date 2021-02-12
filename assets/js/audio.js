@@ -16,7 +16,7 @@ function stopAll() {
 
 function playAudio(song) {
 
-    var toPause = document.getElementsByClassName(audio);
+    var toPause = document.getElementsByClassName("audio");
 
     toPause.pause();
 
