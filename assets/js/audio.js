@@ -14,9 +14,9 @@ function stopAll() {
     }
 }
 
-function playAudio(song) {
+function playAudio(song, song2) {
 
-    var toPause = document.getElementById("song2");
+    var toPause = document.getElementById(song2);
 
     toPause.pause();
 
