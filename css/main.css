@@ -282,6 +282,10 @@ font */
   }
 }
 
+.input100:hover{
+  color:#E48397
+}
+
 .symbol-input100 {
   font-size: 15px;
 
