@@ -18,7 +18,8 @@ function playAudio(song) {
 
     var toPause = document.getElementsByClassName("audio");
 
-    toPause.pause();
+    // toPause.pause();
+    toPause.play();
 
     var audio = document.getElementById(song);
 
