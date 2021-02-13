@@ -443,7 +443,7 @@
 
 /* Contact */
 
-	#contact {
+	/* #contact {
 		display: -ms-flexbox;
 		-ms-flex-pack: justify;
 		display: -moz-flex;
@@ -506,11 +506,11 @@
 					padding-right: 1em;
 				}
 
-			}
+			} */
 
 /* Form */
 
-	form {
+	/* form {
 		margin: 0 0 2em 0;
 	}
 
@@ -716,7 +716,7 @@
 	.formerize-placeholder {
 		opacity: 1.0;
 		color: rgba(34, 49, 63, 0.25);
-	}
+	} */
 
 /* Gallery */
 
@@ -1003,7 +1003,7 @@
 			}
 
 /* List */
-
+/* 
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
@@ -1208,7 +1208,7 @@
 
 		dl dd {
 			margin-left: 2em;
-		}
+		} */
 
 /* Section/Article */
 
@@ -1294,7 +1294,7 @@
 
 /* Table */
 
-	.table-wrapper {
+	/* .table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
 	}
@@ -1353,7 +1353,7 @@
 
 			table.alt tfoot {
 				border-top: 0;
-			}
+			} */
 
 /* Wrapper */
 
